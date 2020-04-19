@@ -1,0 +1,135 @@
+/*plantilla*/
+	body {
+	  display: flex;
+	  min-height: 100vh;
+	  flex-direction: column;
+	}
+
+	main {
+	  flex: 1 0 auto;
+	}
+
+	nav, footer{
+		background-color: black;
+		font-family: 'Oxygen', sans-serif;
+	}
+	.nav-link{
+		color: white !important;
+		font-family: 'Oxygen', sans-serif;
+	}
+	.nav-link:hover{
+		text-decoration: underline !important;
+	}
+	nav .active{
+		font-weight: bold;
+	}
+	.dropleft a{
+		font-family: 'Oxygen', sans-serif;
+	}
+	.dropleft a:hover{
+		background-color: black;
+		color: white;
+	}
+	.navbar-brand img{
+		width: 70%;
+		height: auto;
+	}
+/*home*/
+	.bienvenidos{
+		background-color: white !important;
+		text-align: center;
+		padding-top: 3% !important;
+		padding-bottom: 1% !important;
+		border-bottom: solid black !important;
+		border: none !important;
+	}
+
+	h1,h2,h3,h4{
+		font-family: 'Rufina', serif;
+	}
+	.tareas{
+		border-top: solid black;
+		font-family: 'Oxygen', sans-serif;
+	}
+	.tareas .tarea{
+		font-family: 'Oxygen', sans-serif;
+	}
+	.tareas .card-body{
+		font-size: 1.2rem;
+	}
+	.tareas .amarillo, .main_sesion .amarillo, .amarillo{
+		background-color: #ffe867 !important;
+	}
+	.tareas .azul, .main_reg .azul, .main_regA .azul, .main_contacto .azul{
+		background-color: #6bc5d2 !important;
+	}
+	.tareas .verde, .main_sesion .verde{
+		background-color: #21bf73 !important;
+	}.tareas .rojo, .main_sesion .rojo{
+		background-color: #fb5b5a !important;
+	}
+	.tareas .verde, .main_regT .verde{
+		background-color: #21bf73 !important;
+	}
+	.jumbotron{
+		background-color: white !important;
+	}
+
+/*registro*/
+	.haztucuenta{
+		border-bottom: solid black !important;
+	}
+	.main_sesion .form{
+		width: 95%;
+		padding: 3%;
+	}
+	.main_reg .form{
+		width: 95%;
+		padding: 3%;
+	}
+	.main_regA .form{
+		width: 75%;
+		padding: 3%;
+	}
+	.main_contacto .form{
+		width: 95%;
+		padding: 3%;
+	}
+	form{
+		font-family: 'Oxygen', sans-serif;
+	}
+	form .btn{
+		background-color: white;
+	}
+	form .btn:hover{
+		background-color: black;
+		color: white;
+	}
+
+/*users*/
+th{
+		font-family:  'Rufina', serif;
+	}
+.col-foto{
+	width: 150px;
+}
+.img-user{
+	width: 80%;
+}
+.show-user{
+	width: 35%;
+	height: auto;
+}
+.jumb-usr{
+	font-family: 'Oxygen', sans-serif;
+}
+/*tareas dmin*/
+.tareas-admin{
+	border:none;
+}
+.main_regT .form{
+	width: 95%;
+}
+.main_grades .grades{
+	width: 100%;
+}

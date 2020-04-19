@@ -1,0 +1,82 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+html{
+	font-size: .8rem;
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	.navbar-brand img{
+		width: 100%;
+		height: auto;
+	}
+	.main_contacto .form{
+		width: 75%;
+		padding: 3%;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	html{
+		font-size: .9rem;	
+	}
+	.tareas .card-body{
+		font-size: 1rem;
+	}
+	.main_sesion .form{
+		width: 40%;
+		padding: 3%;
+	}
+	.main_reg .form{
+		width: 50%;
+		padding: 3%;
+	}
+	.main_regA .form{
+		width: 35%;
+		padding: 3%;
+	}
+	.main_contacto .form{
+		width: 55%;
+		padding: 3%;
+	}
+	.show-user{
+		width: 25%;
+		height: auto;
+	}
+	.main_regT .form{
+		width: 85%;
+	}
+	.main_grades .grades{
+		width: 50%;
+	}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+		.show-user{
+			width: 20%;
+			height: auto;
+		}
+		.main_regT .form{
+			width: 75%;
+		}
+		.main_contacto .form{
+			width: 35%;
+			padding: 3%;
+		}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	html{
+		font-size: 1rem;	
+	}
+	
+
+}
+
+/* SLIDESHOW */
+
+
+/*slide 2*/
